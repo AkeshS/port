@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    background-image: url(img/backgraund.jpg);
+    background-size: cover;
+}
+nav{
+    /* background-color: gray; */
+    height: 80px;
+    width: 100%;
+}
+label{
+    color:gray;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin: 20px;   
+}
+nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: gray;
+    font-size: 20px;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: gray;
+    transition: .5s;
+    color: black;
+}
+.about img{
+    width: 300px;
+    border-radius: 10px;
+}
+.about{
+    width: 71%;
+    margin: auto;
+    display: flex;
+    padding: 30px 0;
+}
+.me{
+    display: block;
+    text-align: center;
+    color: gray;
+    padding: 0 20px;
+}
+
+.skills{
+    color: gray;
+    display: flex;
+    width: 71%;
+    margin: auto;
+    padding: 200px 0;
+    justify-content: space-between;
+}
+.p{
+    width: 70%;
+    text-align: center;
+    padding: 0 80px;
+}
+.foiz{
+    padding: 30px 45px;
+    font-size: 40px;
+}
+.work{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    color: gray;
+}
